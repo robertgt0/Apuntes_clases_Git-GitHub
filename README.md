@@ -131,6 +131,14 @@ Sirve para jalar o descargar los cambios del repositorio remoto al repositorio l
 ##EXPERIMENTOS CON GIT PULL  
 Treaernos cambios de otras ramas a la actual  
 Traernos cambios de varias ramas a una sola  
+***  
+## TIPS PARA UNA BUENA PR  
+Enfoca tu codigo en una sola cosa  
+Explica tu pull request  
+##REVISAR UNA PR  
+Proporcionar siempre feedback positivo  
+Concrecion y claridad  
+Entiende el contexto 
 
 
 ## COMANDOS  
@@ -143,6 +151,12 @@ Comandos Realizados en la cuarta clase📁
 |git fetch | Descargas los cambios de los repositorios remotos | 
 |git push origin <rama> | Envia los commit de tu rama local al repositorio remoto|  
 |git clone <url_repositorio> | Copia un repositorio remoto completo a tu maquina local| 
+
+
+
+ ```diff
+ + CLASE 2  
+```
 
 
 
