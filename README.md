@@ -125,10 +125,24 @@ Para clonar con HTTPS:
 ***git clone <url_repo_HTTPS>***  
 Para clonar cpn SSH:  
 git clone <url_repo_SSH>  
+## GIT PULL  
+Sirve para jalar o descargar los cambios del repositorio remoto al repositorio local  
+***
+##EXPERIMENTOS CON GIT PULL  
+Treaernos cambios de otras ramas a la actual  
+Traernos cambios de varias ramas a una sola  
+
+
 ## COMANDOS  
 Comandos Realizados en la cuarta clase📁    
-|git status              |Es para ver el estado actual del proyecto          |  
+|git pull       | Te trae los cambios que se hicieron       |  
 |------------------------|---------------------------------------------------|  
-|git add README.md       | Es para incluir este archivo                      | 
+|git remote add origin <url>       |   Agrega repositorio remoto a tu proyecto de GIT locas    |  
+|git remote -v        | Muestra los repositorios remotos configurados          |  
+|git remote prune origin |Elimina referencias locales a ramas que ya no existen|  
+|git fetch | Descargas los cambios de los repositorios remotos | 
+|git push origin <rama> | Envia los commit de tu rama local al repositorio remoto|  
+|git clone <url_repositorio> | Copia un repositorio remoto completo a tu maquina local| 
+
 
 
