@@ -33,3 +33,102 @@ Los tenemos en nuestro ordenador
 ## REPOSITORIOS REMOTOS 🦎
 Estan en un servidor externo  
 ###
+## COMANDOS  
+Proyecto desde cero📁    
+|git init nuevo-proyecto |crea un nuevo repositorio  |  
+|------------------------|---------------------------|  
+|cd nuevo-proyecto       |para cambiar de directorio |  
+
+Proyecto con carpeta ya existente📂  
+|cd <directorio del proyecto que ya existe>|cambio de direcctorio|  
+|------------------------------------------|---------------------------|
+|git init                                  |inicia un nuevo repositorio|
+
+ ```diff
+ + CLASE 2  
+```
+## LOS 3 ESTADOS DE GIT  
+### Modified📜  
+El archivo fue creado, eliminado o contiene cambios.  
+### Staged 📋  
+El archivo fue marcado para confirmar en el repositorio local.  
+### Commited 📘  
+El archivo fue grabado en el repositorio local.  
+***
+
+## ¿QUE ES UN COMMIT? 📌  
+***Es una de las piezas mas importantes para GIT***  
+Sirven para el registro de los cambios de los repositorios.  
+__Como guardar una partida en un videojuego__
+
+## ¿QUE ES UNA RAMA? 🌳  
+Es un nuevo apuntador hacia una de las confirmaciones  
+## FUNCIONES DE LAS RAMAS  
+Permiten realizar un desarollo no lineal y colaborativo.  
+
+
+## COMANDOS  
+Comandos Realizados en la segunda clase📁    
+|git status              |Es para ver el estado actual del proyecto          |  
+|------------------------|---------------------------------------------------|  
+|git add README.md       | Es para incluir este archivo                      |  
+|git commit              |Guarda los cambios                                 |   
+|git commit -m           | Confirma los cambios                              | 
+|git log --help          |Abre la documentacion de git mostrando los comandos|    
+|git log --oneline       |Muestra el nombre del commit                       |  
+|git switch              |Para cambiar de rama                               |  
+|git switch rama_javacrip|Estoy cambiando a la rama de javascript            |
+|git branch rama_d rama-c|Crea la rama y la cambia                           | 
+|&&                      |Sirve para concatenar comandos                     |
+
+ ```diff
+ ! CLASE 3 
+```
+## FUSIONAR RAMAS 🌳  
+Los cambios en la rama se integran en otra rama  
+## ELIMINAR RAMAS 🌴  
+Las ramas tienen un proposito corto y unico ademas es de una buena practica.  
+## CONFLICTOS EN GIT  
+Si fusionamos dos ramas, la del destino realiza cambios en la misma linea de un fichero que los que queremos fusionar  
+***TENEMOS CONFLICTO***  
+
+|git merge                      |indicamos a que rama me quiero aderir                      |  
+|-------------------------------|-----------------------------------------------------------|  
+|git merge --no commit          | evita que se haga commit automaticamente                  |         
+|git merge --edit               | Abre el editor antes de hacer el commit                   |
+|git merge --abor               | Cancela una operacion de fusion                           |
+|git log --oneline --graph      | Puedes ver el historial de los commit                     |
+|git switch main                | Cambia la rama actual a la rama main                      |
+|git branch                     |Para crear ramas, visualizar, borrara ramas y relacionados |
+|git brach -d no_rama           | Elimina la rama                                           |
+|git brach <nombreRama> --no_ff | Se crea el commit sin hacer el fast forward               |
+
+
+
+ ```diff
+ -CLASE 4 
+```
+## GIT Y GITHUB  
+Git es un control de versiones  
+Github aloja en la nube fuentes basadas en el sistema de control de versiones que git ofrece manejar repositorio  
+***  
+## REPOSITORIOS REMOTOS  
+Estan hospedados en un servidor y que servira de punto de sincronizacion.  
+
+## Sincronizando repositorios  
+Usaremos un nuevo comando llamado git push, nos permite sincronizar nuestros cambios del repositorio local a nuestro repositorio remoto.  
+
+No necesariamente debe ser la rama main.  
+***git push <nombre_repo_remoto> <rama_a_subirse>  
+## Clonar repositorios  
+Para clonar con HTTPS:  
+***git clone <url_repo_HTTPS>***  
+Para clonar cpn SSH:  
+git clone <url_repo_SSH>  
+## COMANDOS  
+Comandos Realizados en la cuarta clase📁    
+|git status              |Es para ver el estado actual del proyecto          |  
+|------------------------|---------------------------------------------------|  
+|git add README.md       | Es para incluir este archivo                      | 
+
+
