@@ -67,6 +67,8 @@ El archivo fue grabado en el repositorio local.
 ***
 
 ## ¿QUE ES UN COMMIT? 📌  
+![image](https://github.com/user-attachments/assets/b3040179-b1df-4f2b-b362-7240c74ff94b)
+
 ***Es una de las piezas mas importantes para GIT***  
 Sirven para el registro de los cambios de los repositorios.  
 __Como guardar una partida en un videojuego__
@@ -95,10 +97,16 @@ Comandos Realizados en la segunda clase📁
  ! CLASE 3 
 ```
 ## FUSIONAR RAMAS 🌳  
+![image](https://github.com/user-attachments/assets/e0d31b68-aa3e-49ed-b83f-c979057a38dc)
+
 Los cambios en la rama se integran en otra rama  
 ## ELIMINAR RAMAS 🌴  
+![image](https://github.com/user-attachments/assets/ba7f64c7-0d4e-45ee-a9c1-28427b1733bf)
+
 Las ramas tienen un proposito corto y unico ademas es de una buena practica.  
 ## CONFLICTOS EN GIT  
+![image](https://github.com/user-attachments/assets/ada35fd6-92af-45e6-99ba-e7f020ff473d)
+
 Si fusionamos dos ramas, la del destino realiza cambios en la misma linea de un fichero que los que queremos fusionar  
 ***TENEMOS CONFLICTO***  
 
@@ -125,8 +133,17 @@ Github aloja en la nube fuentes basadas en el sistema de control de versiones qu
 ## REPOSITORIOS REMOTOS  
 Estan hospedados en un servidor y que servira de punto de sincronizacion.  
 
+
 ## Sincronizando repositorios  
 Usaremos un nuevo comando llamado git push, nos permite sincronizar nuestros cambios del repositorio local a nuestro repositorio remoto.  
+## NUEVO REPOSITORIO  
+
+![image](https://github.com/user-attachments/assets/b1b2fe7e-8ceb-4476-9cb8-e90e9c307d2e)  
+Vamos a la pestana create new y elegimos new repositoty
+![image](https://github.com/user-attachments/assets/a9bfa8d0-c23c-4a5d-bf30-fc73280db35d)
+Llena los datos  
+![image](https://github.com/user-attachments/assets/bc0f74f8-2199-40c7-94c7-dcc424263f4e)
+
 
 No necesariamente debe ser la rama main.  
 ***git push <nombre_repo_remoto> <rama_a_subirse>  
@@ -136,6 +153,8 @@ Para clonar con HTTPS:
 Para clonar cpn SSH:  
 git clone <url_repo_SSH>  
 ## GIT PULL  
+![image](https://github.com/user-attachments/assets/9e969aed-6e94-4b35-a908-ff833cf5a4db)
+
 Sirve para jalar o descargar los cambios del repositorio remoto al repositorio local  
 ***
 ##EXPERIMENTOS CON GIT PULL  
