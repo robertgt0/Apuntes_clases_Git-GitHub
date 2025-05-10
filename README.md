@@ -299,9 +299,14 @@ Aplicar cambios de commits en especifico:
 git cherry-pick<SHA>  
 Detectar que commits es el que ha introducido un bug:  
 git bisect  
-git bisect start
-git bisect bad
+
+git bisect start  
+
+git bisect bad  
+
 git bisect good  
+
 git bisect reset  
+
 ![image](https://github.com/user-attachments/assets/e856cd71-3dcb-4515-8129-339011051eca)
 
