@@ -38,7 +38,9 @@ Estos mismos repositorios pueden ser locales o remotos
 ![image](https://github.com/user-attachments/assets/9790eb47-cad0-4c5f-b8f7-3a5e3cc80081)
 
 Los tenemos en nuestro ordenador  
-## REPOSITORIOS REMOTOS 🦎
+## REPOSITORIOS REMOTOS 🦎  
+![image](https://github.com/user-attachments/assets/8533263e-82ce-43a9-9d5d-0a0f4fa176de)
+
 Estan en un servidor externo  
 ###
 ## COMANDOS  
@@ -165,6 +167,23 @@ Comandos Realizados en la cuarta clase📁
  ```diff
  + CLASE 5
 ```
+## GITFLOW  
 
+1. Main: contener el codigo de produccion  
+ ![image](https://github.com/user-attachments/assets/a1c4c322-b976-4294-a73d-599e26c5be19)
+2. Develop: Codigo de produccion que todavia tienen que ser probadas
+![image](https://github.com/user-attachments/assets/bbaee5a8-26d3-4813-ae26-b1432ca45309)
+
+3. Feature: Caracteristicas nuevas
+4. Release: Cambios de ultimo momento
+5. Hotfix: Parches
+   
+
+## SHIP/SHOW/ASK  
+1. Ship: Se fucionan en la rama principal
+2. Show: Abre una peticion de cambios para  que sean revisados
+3. Ask: Abre una PR para discutir los cambios antes de fusionarlos
+   
+   
 
 
