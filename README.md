@@ -9,16 +9,22 @@ Sistema que registra cada cambio en el codigo fuente que funciona como un histor
 ## LA IMPORTANCIA DEL CONTROL DE VERSIONES   
 
 ### 👇Historial 📃  
+![image](https://github.com/user-attachments/assets/04d3f41f-83e8-4a86-b8bf-4ce496ab2b02)
+
 👉 Revisa la evolución de un proyecto.  
 👉 Identifica cuándo se introdujeron ciertos cambios.  
 👉Restaura versiones anteriores en caso de errores o problemas.   
 
 ### 👇Seguridad 🔒  
+![image](https://github.com/user-attachments/assets/0194a63f-2158-4bff-b2ea-0d7ae70754a2)
+
 👉Controla quién puede ver o modificar ciertos archivos.  
 👉 Protege información sensible o crítica.  
 👉 Mantiene la integridad del proyecto frente a cambios no autorizados.  
 
 ### 👉FLEXIBILIDAD 🌱  
+![image](https://github.com/user-attachments/assets/eacdce82-d107-413b-9bb6-68e42c7f3514)
+
 👉Integrar cambios de varios colaboradores sin conflictos.  
 👉Facilidad para entender la evolución del proyecto.  
 👉El seguimiento de qué cambios se incluyen en cada versión.  
@@ -29,6 +35,8 @@ Es un sistema distribuido donde aloja una copia de repositorio en cada maquina l
 Es una carpeta donde se almacena las diferentes versiones de los ficheros de un proyecto y su historial  
 Estos mismos repositorios pueden ser locales o remotos  
 ## REPOSITORIO LOCAL 🖥️  
+![image](https://github.com/user-attachments/assets/9790eb47-cad0-4c5f-b8f7-3a5e3cc80081)
+
 Los tenemos en nuestro ordenador  
 ## REPOSITORIOS REMOTOS 🦎
 Estan en un servidor externo  
@@ -155,7 +163,7 @@ Comandos Realizados en la cuarta clase📁
 
 
  ```diff
- + CLASE 2  
+ + CLASE 5
 ```
 
 
