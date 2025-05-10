@@ -54,6 +54,7 @@ Proyecto con carpeta ya existente📂
 |------------------------------------------|---------------------------|
 |git init                                  |inicia un nuevo repositorio|
 
+***
  ```diff
  + CLASE 2  
 ```
@@ -92,7 +93,7 @@ Comandos Realizados en la segunda clase📁
 |git switch rama_javacrip|Estoy cambiando a la rama de javascript            |
 |git branch rama_d rama-c|Crea la rama y la cambia                           | 
 |&&                      |Sirve para concatenar comandos                     |
-
+***
  ```diff
  ! CLASE 3 
 ```
@@ -121,7 +122,7 @@ Si fusionamos dos ramas, la del destino realiza cambios en la misma linea de un 
 |git brach -d no_rama           | Elimina la rama                                           |
 |git brach <nombreRama> --no_ff | Se crea el commit sin hacer el fast forward               |
 
-
+***
 
  ```diff
  -CLASE 4 
@@ -181,7 +182,7 @@ Comandos Realizados en la cuarta clase📁
 |git push origin <rama> | Envia los commit de tu rama local al repositorio remoto|  
 |git clone <url_repositorio> | Copia un repositorio remoto completo a tu maquina local| 
 
-
+***
 
  ```diff
  + CLASE 5
@@ -203,6 +204,104 @@ Comandos Realizados en la cuarta clase📁
 2. Show: Abre una peticion de cambios para  que sean revisados
 3. Ask: Abre una PR para discutir los cambios antes de fusionarlos
    
-   
+***
+ ```diff
+ - CLASE 6
+```   
 
+## BUENAS PRACTICAS 🐐  
+1. Es un estandar manejado en la mayoria de equipos de desarollo
+2. Resolver conflictos o problemas durante el desarollo es mas facil
+3. Tu historial de commits es mas legible
+
+## CADA CUANTO HACER COMMIT?  
+***A menudo***  
+Hacer commit a menudo no significa que debes hacer commits sin sentido  
+Usa prefijo para tus commits para hacerlos mas semanticos  
+![image](https://github.com/user-attachments/assets/217fa7b7-40b7-4cd6-8108-ce034f8ad7c5)
+
+## ESCRIBIR UN BUEN NOMBRE DE RAMA  
+1. Se consistente al nonmbrar tus ramas
+2. Usa el nombre de la accion que se realiza en la rama
+![image](https://github.com/user-attachments/assets/ce27e478-e4ae-4e7f-a3a3-9cfad664f128)
+
+3. Usa los IDS de JIRA o el sistema de tickets que usas
+   ![image](https://github.com/user-attachments/assets/d92acf7b-2c18-48ed-885c-6dd77f7cd9c0)
+***  
+ ```diff
+ - CLASE 7
+```  
+## EN QUE CASOS DESHACEMOS CAMBIOS?🚩  
+1. Dejo de funcionar el proyecto
+2. Queremos recuperar una parte del codigo que eliminamos
+3. Queremos recuperar archivos que eliminamos
+
+## COMANDOS DESTRUCTIVOS🔨  
+Los comandos destructivos afectan el historial de commits realizados, los comandos no destructivos trabajan en base al historial sin efectarlo.  
+
+## GIT RESET  
+SOFT: Mantiene los cambios que ocurrieron antes de hacer commit desde donde apuntaba  
+HARD: Descarta los cambios  
+## GIT REVERT  
+Revierte los cambios que un commit introdujo y crea un nuevo commit con los cambios revertidos  
+**git revert edba**  
+
+
+
+
+***
+ ```diff
+ - CLASE 8
+```
+## QUE ES UN HOOKS💡  
+1. Un hook de enganche es la posibilidad de ejecutar una accion o scrip cada vez que ocurre un evento determinado de GIT
+2. Hooks del lado del cliente
+3. Hooks del lado del servidor
+
+## HOOKS DEL LADO DEL CLIENTE👤  
+![image](https://github.com/user-attachments/assets/81f40b27-6eb3-4588-91fa-451d75a33991)  
+### Pre-commit  
+Podrias comprobar si se esta intentando hacer un commit de demasiados archivos  
+Puede ser un buen sitio para ejecutar el linter sobre los archivos que han sido modificados  
+### Prepare-commit-msg  
+Para modificar el mensaje del commit  
+### Post-commit  
+Se usa para notificar por Slack  
+### Pre-push  
+Para ejecutar una bateria de test  
+### post-checkout y post-merge  
+Permite limpiar el directorio del trabajo tras realizar un checkout  
+
+##¿Como añado un hook a mi repositorio local?  
+Primero: Deberemos ir a la carpeta de nuestro proyecto y habilitar la visualización de archivos ocultos.  
+
+![image](https://github.com/user-attachments/assets/17a7c6a8-55fa-4c17-872d-33f0beebf6da)  
+
+Segundo: Entraremos en la carpeta .git, esta carpeta es crucial para la integridad de tu proyecto asi que te ruego no tocar cosas que no sabes.  
+
+![image](https://github.com/user-attachments/assets/b7f5b307-51fa-45f1-b86d-9a6b4c9c852b)  
+
+Tercero: Abre la carpeta hooks aqui encontraras varios hooks de muestra.  
+
+![image](https://github.com/user-attachments/assets/aaf344f6-c5c0-42b3-897d-e13b49951072)  
+
+Cuarto: Crea una copia del .sample y cambia el nombre de tu copia a un tipo de hook que tu desees. Abre el hook con un edito de codigo y posteriormente crea el codigo necesario para tu hook  
+
+![image](https://github.com/user-attachments/assets/a135635b-15ba-46e6-ac25-de705bafedd3)  
+
+Quinto: Quitale el .sample a tu archivo  
+## TRUCOS EN GIT  
+Garda tus cambios temporales:  
+git stash  
+git stash -u  
+git stash pop  
+Aplicar cambios de commits en especifico:  
+git cherry-pick<SHA>  
+Detectar que commits es el que ha introducido un bug:  
+git bisect  
+git bisect start
+git bisect bad
+git bisect good  
+git bisect reset  
+![image](https://github.com/user-attachments/assets/e856cd71-3dcb-4515-8129-339011051eca)
 
